@@ -30,3 +30,20 @@
 ## Важные замечания
 
 - Для отправки сообщений и файлов нужно заменить `номер_телефона` и `fileUrl` на реальные данные.
+
+
+## README на английском
+
+- # GREEN-API Integration
+
+This project demonstrates how to use the GREEN-API to send messages and interact with instance settings.
+
+## Program Logic
+
+1. The user enters the connection parameters:
+   - **idInstance** — instance ID.
+   - **ApiTokenInstance** — access token for the instance.
+   
+2. After entering the data, the user can click on the buttons:
+   - **Get Settings** — calls the `
+
