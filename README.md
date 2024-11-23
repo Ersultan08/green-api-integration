@@ -25,6 +25,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
+git clone https://github.com/yourusername/green-api-integration.git
 2. Откройте файл `index.html` в браузере.
 
 ## Важные замечания
@@ -34,7 +35,7 @@
 
 ## README на английском
 
-- # GREEN-API Integration
+# GREEN-API Integration
 
 This project demonstrates how to use the GREEN-API to send messages and interact with instance settings.
 
@@ -45,5 +46,26 @@ This project demonstrates how to use the GREEN-API to send messages and interact
    - **ApiTokenInstance** — access token for the instance.
    
 2. After entering the data, the user can click on the buttons:
-   - **Get Settings** — calls the `
+   - **Get Settings** — calls the `getSettings` method.
+   - **Get State of Instance** — calls the `getStateInstance` method.
+   - **Send Message** — calls the `sendMessage` method.
+   - **Send File by URL** — calls the `sendFileByUrl` method.
+   
+3. Responses from the API will be displayed in the box below the buttons.
+
+## Required Environment
+
+To run the project you will need:
+- A working GREEN-API instance (create one at [green-api.com](https://green-api.com)).
+- A compatible web browser.
+
+## Installation
+
+1. Clone the repository:
+git clone https://github.com/yourusername/green-api-integration.git
+2. Open the `index.html` file in your browser.
+
+## Important Notes
+
+- To send messages and files, you need to replace `phone_number` and `fileUrl` with real data.
 
